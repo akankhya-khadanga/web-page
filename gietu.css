@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+main.navbar {
+    background-color: #030613;
+    color: #fcffc1;
+    font-family: "Montserrat Alternates", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    overflow:scroll;
+}
+a.navbar {
+    color: #fcffc1;
+    text-decoration: none;
+}
+div.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 100%;
+    font-family: "Montserrat Alternates", sans-serif;
+    color:#fcffc1;
+}
+a.uhc {
+  color: black;
+  border : 3px solid black;
+  background-color:#fcffc1;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+  /* outline: 0; */
+}
+body{
+    padding: 3vh 5vw 3vh 5vw;
+    background-image:url("giet.jpg") ;
+    background-size:contain;
+    overflow:scroll;
+    height:800px;
+    margin-bottom: 70px;
+}
+main.uhc1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat Alternates", sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    width: 100vw;
+    /* overflow: hidden; */
+    color: #030613;
+    z-index: 10;
+}
+section.uhc1 {
+    height: 100vh;
+    width: 100vw;
+}
+main.uhc2 {
+    width: 95vw;
+    padding: 3vh 5vw 3vh 5vw;
+    text-align: justify;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    background-color: #030613;
+    color: #fcffc1;
+}
+main.uhc3{
+    width:95vw;
+    padding: 3vh 5vw 3vh 5vw;
+    text-align: justify;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    background-color: #fcffc1;
+    color: #030613 ;
+}
+main.uhc4{
+    width: 95vw;
+    padding: 3vh 5vw 3vh 5vw;
+    text-align: justify;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    background-color: #030613;
+    color: #fcffc1;
+}
+h1.uhc4{
+    text-align: center;
+}
+div.uhc4{
+    width:400px;
+    height:351px;
+    text-align: justify ;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+main.uhc5{
+    width: 95vw;
+    padding:  5vw  5vw;
+    padding-top:70px;
+    padding-top:70px;
+    text-align: justify;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    background-color: #fcffc1;
+    color: #030613;
+    text-align: center;
+}
+a.uhc5{
+    color:black;
+    border: 3px solid black;
+    border-radius:10px;
+    padding:10px;
+    text-decoration: none;
+    transition: all 1s;
+}
+h1.uhc6{
+    text-align: center;
+    justify-content: center;
+}
+main.uhc6{
+    width: 95vw;
+    padding: 3vh 5vw 3vh 5vw;
+    text-align: justify;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    background-color: #030613;
+    color: #fcffc1;
+}
+.table-heading.uhc6{
+    border-bottom: 1px solid #fcffc1 ;
+}
+section.uhc6{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(5,1fr);
+    column-gap: 20px;
+}
+main.uhc7{
+    width:95vw;
+    padding: 3vh 5vw 3vh 5vw;
+    text-align: justify;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    background-color: #fcffc1;
+    color: #030613 ;
+}
+h1.uhc7{
+    text-align: center;
+    justify-content: center;
+}
+section.uhc7{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(4,1fr);
+}
+div.uhc7:nth-child(odd) {
+    grid-column: 2;
+    text-align: left;
+    border-left: 6px solid #030613;
+    padding-left: 15px;
+}
+div.unc7:nth-child(even){
+    grid-column:2;
+    text-align:right;
+    padding-right:15px;
+}
+div.uhc7 {
+    grid-row: span 2;
+}
